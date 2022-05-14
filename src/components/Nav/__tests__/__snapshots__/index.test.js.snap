@@ -2,19 +2,23 @@
 
 exports[`Nav component matches snapshot 1`] = `
 <DocumentFragment>
-  <header>
-    <a
-      data-testid="link"
-      href="/"
-    >
-      <span
-        aria-label="camera"
-        role="img"
+  <header
+    class="flex-row px-1"
+  >
+    <h2>
+      <a
+        data-testid="link"
+        href="/"
       >
-        📸
-      </span>
-       Oh Snap!
-    </a>
+        <span
+          aria-label="camera"
+          role="img"
+        >
+           📸
+        </span>
+         Oh Snap!
+      </a>
+    </h2>
     <nav>
       <ul
         class="flex-row"
@@ -29,38 +33,18 @@ exports[`Nav component matches snapshot 1`] = `
             About me
           </a>
         </li>
-        <li>
-           
+        <li
+          class="mx-2"
+        >
           <span>
             Contact
           </span>
         </li>
         <li
-          class="mx-1"
+          class="mx-1 false"
         >
           <span>
-            commercial
-          </span>
-        </li>
-        <li
-          class="mx-1"
-        >
-          <span>
-            portraits
-          </span>
-        </li>
-        <li
-          class="mx-1"
-        >
-          <span>
-            food
-          </span>
-        </li>
-        <li
-          class="mx-1"
-        >
-          <span>
-            landscape
+            Portraits
           </span>
         </li>
       </ul>
